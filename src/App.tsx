@@ -23,6 +23,7 @@ const App = () => (
         <Navigation />
         <div className="pt-16">
           <Routes>
+            <Route path="/" element={<Acasa />} />
             <Route path="/Acasa" element={<Acasa />} />
             <Route path="/servicii" element={<Servicii />} />
             <Route path="/servicii/:serviceId" element={<ServiceDetail />} />
