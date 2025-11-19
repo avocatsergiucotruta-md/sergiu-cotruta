@@ -178,10 +178,10 @@ const Contact = () => {
     // Înlocuiește cu datele tale de la EmailJS
     emailjs
       .send
-      //"service_el9kaqp", // Înlocuiește cu Service ID-ul tău
-      //"template_82hcm9s", // Înlocuiește cu Template ID-ul tău
-      //templateParams,
-      //"2UcruGxNSzW9o8R-H" // Înlocuiește cu Public Key-ul tău
+      "service_el9kaqp", // Înlocuiește cu Service ID-ul tău
+      "template_82hcm9s", // Înlocuiește cu Template ID-ul tău
+      templateParams,
+      "2UcruGxNSzW9o8R-H" // Înlocuiește cu Public Key-ul tău
       ()
       .then(
         () => {
