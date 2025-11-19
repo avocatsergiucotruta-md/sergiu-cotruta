@@ -227,7 +227,7 @@ const Despre = () => {
                         <h4 className="font-semibold">Formare Profesională</h4>
                         <p className="text-muted-foreground">
                           Centrul pentru dezvoltare personală și profesională.
-                          Formarea prefesională în domeniul medierii - 2017
+                          Formarea prefesională în domeniul medierii
                         </p>
                       </div>
                     </div>
@@ -238,7 +238,7 @@ const Despre = () => {
                         <h4 className="font-semibold">Program de Leadership</h4>
                         <p className="text-muted-foreground">
                           Program de leadership pentru juriști din Republica
-                          Moldova - Lead 2018
+                          Moldova - Lead
                         </p>
                       </div>
                     </div>
