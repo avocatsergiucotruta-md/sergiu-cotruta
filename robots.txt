@@ -11,7 +11,7 @@ Disallow: /drafts/
 
 # Permite accesul la resurse
 Allow: /src/
-Allow: /public/
+Allow: /public/assets
 
 # Sitemap pentru Google
 Sitemap: https://avocatcotruta.md/sitemap.xml
