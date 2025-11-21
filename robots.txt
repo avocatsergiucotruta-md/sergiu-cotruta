@@ -10,7 +10,7 @@ Disallow: /tmp/
 Disallow: /drafts/
 
 # Permite accesul la resurse
-Allow: /assets/
+Allow: /src/
 Allow: /public/
 
 # Sitemap pentru Google
