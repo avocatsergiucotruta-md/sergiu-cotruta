@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Blochează directoare interne care nu trebuie indexate
+Disallow: /admin/
+Disallow: /login/
+Disallow: /auth/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /drafts/
+
+# Permite accesul la resurse
+Allow: /assets/
+Allow: /public/
+
+# Sitemap pentru Google
+Sitemap: https://avocatcotruta.md/sitemap.xml
