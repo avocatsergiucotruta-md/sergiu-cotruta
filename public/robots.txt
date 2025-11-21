@@ -1,14 +1,18 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+# Blochează directoare interne care nu trebuie indexate
+Disallow: /admin/
+Disallow: /login/
+Disallow: /auth/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /drafts/
+
+# Permite accesul la resurse
+Allow: /src/
+Allow: /public/
+Allow: /src/assets
+
+# Sitemap pentru Google
+Sitemap: https://avocatcotruta.md/sitemap.xml
